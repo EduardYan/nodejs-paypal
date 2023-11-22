@@ -5,10 +5,8 @@ import request from "request";
 const app = express();
 app.use(cors());
 
-const CLIENT =
-  "AQWNI4tVaY80kB7lytV7z5CDYVdyxAl9GUJKu7CuWdGUgQy6ph6LMhemWQPEraO35VHtiR2AWjxNVmjg";
-const SECRET =
-  "EJmc2gisr3t_XQ5YxmhIEe6g2zJ7Gm7JMAoEO9qWQ73aWJdmvt52mw0NqIjOrPeUgzq5RCeOi5Vy7kuR";
+const CLIENT = "";
+const SECRET = "";
 const PAYPAL_API = "https://api-m.sandbox.paypal.com";
 const auth = { user: CLIENT, pass: SECRET };
 
